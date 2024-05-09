@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css">
+    <title>Age Calculator App || @Codewithchan</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <!-- User form -->
+        <form>
+            <h1>Age Calculator</h1>
+            <hr width="100%" color="#000000" />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           <br>
+            <div class="input_field">
+                <label for="date" class="input-label">Birth Date</label>
+                <input type="date" name="date" id="date">
+                <span id="error"></span>
+            </div>
+            <div class="input_field">
+                <button type="button" class="btn-submit" onclick="calculateAge()">Get Age</button>
+            </div>
+             <!-- User output  -->
+             <br>
+             <br>
+        <div id="age"></div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>@Chandru /codewithchan </h2>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <!--Social Liks codings below-->
+<a id="source-link" class="meta-link" href="https://github.com/Codewithchan" target="_blank">
+    <i class="fas fa-link"></i>
+    <span class="roboto-mono">Source Code</span>
+  </a>
+</body>
+
+</html>
